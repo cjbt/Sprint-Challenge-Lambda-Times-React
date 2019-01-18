@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const TabContainer = styled.div`
-display: flex;
+  display: flex;
   justify-content: none;
   align-items: center;
   flex-direction: row;
@@ -11,7 +11,7 @@ display: flex;
   background-color: ${props =>
     props.selectedTab === props.tab ? '#fff' : '#333'};
   border: ${props =>
-    props.selectedTab === props.tab ? '2px solid #333' : 'none'}
+    props.selectedTab === props.tab ? '2px solid #333' : 'none'};
   margin: 0 5px;
   padding: 2px 10px;
   font-size: 12px;
@@ -20,10 +20,8 @@ display: flex;
   font-weight: bold;
 
   :hover {
-  text-decoration: underline;
-}
-
-
+    text-decoration: underline;
+  }
 `;
 
 const Tab = props => {
@@ -47,9 +45,9 @@ const Tab = props => {
 
 Tab.propTypes = {
   tab: PropTypes.string,
-  tabs: PropTypes.array.required,
-  selectedTab: PropTypes.string.required,
-  selectTabHandler: PropTypes.func.required
+  tabs: PropTypes.array,
+  selectedTab: PropTypes.string,
+  selectTabHandler: PropTypes.func
 };
 
 // Make sure you include PropTypes on your props
