@@ -25,6 +25,6 @@ Tab.propTypes = {
   selectTabHandler: PropTypes.func.required
 };
 
-// Make sure you include PropTypes on your props.
+// Make sure you include PropTypes on your props
 
 export default Tab;
