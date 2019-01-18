@@ -2,7 +2,7 @@
 
 2. In the unmounting phase, the only function that exist is called componentWillUnmount which is the last method to be called right before the component is cleaned up and exits from the DOM
 
-3. A Higher oder component is a component that takes in other components as arguments and returns a new component source which hold logic that can be used to connect the two components that were passed.
+3. A Higher order component is a component that takes in other components as arguments and returns a new component source which hold logic that can be used to connect the two components that were passed.
 
 4. Vanilla css/sass/scss is more customizable and can style whatever you need the way you want to.
 
