@@ -33,9 +33,7 @@ const HeaderContainer = styled.div`
   }
 
   @media (min-width: 1280px) {
-    .header {
-      width: 1280px;
-    }
+    width: 1280px;
   }
 `;
 const DateSpan = styled.span`
